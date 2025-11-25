@@ -1,0 +1,51 @@
+.bg-pastel {
+    background-color: #F8F4FF;
+}
+
+.text-primary {
+    color: #5A4FCF;
+}
+
+.card-shadow {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* small helper utilities */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Custom global styles outside Tailwind */
+
+/* Pastel background helpers */
+.bg-pastel-card {
+    background-color: #FFF3EB;
+}
+
+.bg-pastel-hover:hover {
+    background-color: #FDE7DF;
+}
+
+/* Rounded card */
+.card {
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 6px;
+}
+
+/* Mobile title styling */
+.mobile-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #555;
+}
+
+/* Smooth transitions */
+.smooth {
+    transition: all 0.2s ease;
+}
