@@ -97,3 +97,13 @@
 .animate-popIn {
     animation: popIn 0.25s ease-out forwards;
 }
+
+/* Hide scrollbar cleanly */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
